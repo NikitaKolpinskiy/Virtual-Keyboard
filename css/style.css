@@ -39,6 +39,7 @@
 .keyboard-button__en-letter {
   align-self: center;
   padding-top: 14px;
+  font-weight: bold;
 }
 
 .keyboard-button__ru-letter {
@@ -54,6 +55,7 @@
   height: 30px;
   padding: 20px;
   border: 1px red solid;
+  font-weight: bold;
 }
 
 

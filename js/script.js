@@ -134,9 +134,7 @@ keys.forEach((line, i, arr) => {
     buttonUI.dataset.enValue = buttonConfig.enValue;
     buttonUI.dataset.ruValue = buttonConfig.ruValue;
     buttonUI.dataset.keyCode = buttonConfig.keyCode;
-    buttonUI.classList.add(
-      `keyboard-button-fractions-${buttonConfig.fractions}`
-    );
+    buttonUI.classList.add(`keyboard-button-fractions-${buttonConfig.fractions}`);
     buttonUI.addEventListener("click", onButtonClick);
     lineUI.appendChild(buttonUI);
   });
